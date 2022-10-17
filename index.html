@@ -1,0 +1,222 @@
+<!-- main landing page -->
+<!DOCTYPE html>
+<style>
+   *{
+
+     box-sizing: border-box;
+    
+    
+   }
+   /* Add style to the body */
+   body{
+        padding: 20px;
+        width:auto;
+        height: fit-content;
+        align-content: center;
+        background-color:beige;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline-style: solid;
+        outline-color: lightyellow;
+    } 
+     /* Add background color to the header */
+    header{
+        padding: 15px;
+        border-radius: 5px;
+        background-color: lightpink;
+    }
+    main{
+        background-color: white;
+        border-radius: 5px;
+        justify-content: center;
+    }
+   
+   
+    /* Add a background color to nav bar*/
+    .navBar{ 
+        background-color: lightsteelblue ;
+        overflow: hidden;
+        border-radius: 10px;
+        position: sticky;
+    }
+    /* style the links inside the navigation bar */
+    .navBar a{ 
+        text-decoration: none;
+        float: left;
+        color: rgb(35, 32, 32);
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+    .welcomeContainer{
+        margin: 5px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+    
+    .aboutMeContainer{
+        margin: 25px;
+        padding: 10px;
+        /* width: 600px; */
+        height: 350px;
+        align-content: center;
+        display: block;
+        
+    }
+    .aboutMeTitle{
+        text-align: left;
+    }
+    .aboutMeText{
+        width: auto;
+        text-align: left;
+    }
+    .lifeStyleContainer{
+        margin: 25px;
+        padding: 10px;
+        height: 350px;
+        align-content: center;
+        display: block;
+
+    }
+    .lifeStyleTitle{
+        text-align: right;
+    }
+    .lifeStyleText{
+        width: auto;
+        text-align: right;
+    }
+
+    img{
+        /* margin: 25px; */
+        padding: 5px;
+        width: 350px;
+        height: 250px;
+    }
+    .imgMe{
+        float: right;
+        text-align: center;
+    }
+    .imgFam{
+       float: left;
+       text-align: center;
+    }
+    /* h2, h3{
+        text-align: center;
+    } */
+    #followMe{
+        text-align: center;
+
+    }
+    ul{
+        list-style: none;
+    }
+    #quote{
+        text-align: center;
+        font-size: medium;
+    }
+    #contactInfo{
+        margin: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+</style>
+<html>
+    <head>
+        <title>Assignment.1: Bailee's Weblog</title>
+    </head>
+    <body>
+        <header>
+            <div class="mainTitle"><h1 class="blogName">BaiBlog</h1>
+            </div>
+            <div class = "navBar">
+                <nav id ="links">
+                    <a href="index.html">Home</a>
+                    <a href="posts.html">Blog</a>
+                    <a href="create.html">Create New Post</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- main post -->
+            <section id="welcome">
+                <div class="welcomeContainer">
+                    <div class="welcomeTitle"><h2>Welcome</h2>
+                    </div>
+                    <div class="welcomeText">
+                    <p>Welcome to the BaiBlog. Here you can learn all things about Bailee Gerlich. There is a menu at the top. soo check out the blog and other posts
+                    </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id ="mainBlog">
+             <article id ="blogContext">
+                <div class="aboutMeContainer">
+                    <div class="aboutMeTitle"><h3>About Me</h3>
+                    </div>
+                    <div class="aboutMeText">
+                        <p><div class="imgMe">
+                        <img src="Images/bailee.jpg" alt="Photo of Bailee Gerlich, on the right" width="30px" height="20px">
+                        <figcaption><small>First Day Back to School Photo. Taken AUG 22, 2022. </small></figcaption> </div>Hello Everyone. My name is Bailee Gerlich. I was adopted from China when I was an infant, and I have grown up in the Amarillo/Canyon area ever since.
+                            I am now 21 years old, 
+                       currently attending West Texas A&M, and I am a Computer Informations Systems major. I am set to graduate next spring in May 2023. My dream career is to work in front-end development. I love expressing creativity through UX design. 
+                            Another career I consider is web development. 
+                           
+                        </p>
+                    </div>
+                     
+                </div>
+                
+                <div class="lifeStyleContainer">
+                    <div class="lifeStyleTitle">
+                        <h3>Bailee's Lifestyle</h3>
+                    </div>
+                    <div class="lifeStyleText">
+                        <p><div class="imgFam">
+                        <img src="Images/family.JPG" alt="Photo of my immediate family">
+                        <figcaption><small>Immediate Family Photo. Taken JUN 26, 2021.</small></figcaption>
+                        </div>My life is nothing too spectatular. I primarly live with my moms, yes I have two moms; and every other day I stay with my dad. Life at my moms' house is very melancholy, I cook for myself almost all the time. And the neighborhood is great for going on walks.
+                        When I stay with my dad, we tend to cook vegan dinners together and watch a TV series. Unless I am with my dad, I do not eat vegan. Plant-based foods are definitly not my thing, but I do it for him, because it is how we spend our quality time togther. 
+                        My sister, who I adore lives in Dallas, TX with her husband. We stay close by zooming every other day to catch up. She is currently working as a project manager as this cool media company. I spend most of my day doing homework, but I try to make time to myself by going to the gym, and hanging out with my best friend on weekends.
+                        
+                        </p>
+                    </div>
+                </div>
+                
+                <br>
+
+                <details id="followMe">
+                    <div>
+                         <ul>
+                        <li>Instagram: @baileenoellegerlich</li>
+                        <li>Twitter: @baileegerlichx</li>
+                        <li>Snapchat: @baileegerlichx</li>
+                        <li>BeReal: @bngerlich.jpg</li>
+                        <li>Tiktok: @hcilregeeliab</li>
+                        <li>Github: @baileegerlich</li>
+                    </ul>
+                    </div>
+                    <summary>Follow Me on Social Media</summary>
+                   
+                </details>
+             </article>
+            </section>
+            <br>
+            <br>
+            <div id="quote"><P>A Famous Quote I Live By:</P>
+            <blockquote>"It's everyday bro" - Jake Paul</blockquote></div>
+            
+        </main>
+        <hr>
+        <footer id="contactInfo">
+            <p><small>Contact Information: Phone: (806)-683-5597 | Email: baileegerlich@gmail.com | Address: 19180 Blue Creek Drive</small></p>
+        </footer>
+    </body>
+    
+</html>

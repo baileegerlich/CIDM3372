@@ -1,0 +1,144 @@
+<!-- list of all blog posts -->
+<!DOCTYPE html>
+<style>
+    *{
+
+    box-sizing: border-box;
+
+
+    }
+    body{
+        padding: 20px;
+        width:auto;
+        height: fit-content;
+        align-content: center;
+        background-color:beige;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        outline-style: solid;
+        outline-color: lightyellow;
+    } 
+     /* Add background color to the header */
+    header{
+        padding: 15px;
+        border-radius: 5px;
+        background-color: lightpink;
+    }
+    main{
+        background-color: white;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    /* Add a background color to nav bar*/
+    .navBar{ 
+        background-color: lightsteelblue ;
+        overflow: hidden;
+        border-radius: 10px;
+        position: sticky;
+    }
+    /* style the links inside the navigation bar */
+    .navBar a{ 
+        text-decoration: none;
+        float: left;
+        color: rgb(35, 32, 32);
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+    #contactInfo{
+        margin: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-size: 20px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    .blogContainer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .blogBox{
+        background-color: black;
+        border: 1px solid black;
+    }
+    .blogText{
+        color: darkslateblue;
+    }
+  
+</style>
+<html>
+    <head>
+        <title>List of Posts</title>
+    </head>
+    <body>
+        <head>
+            <title>Assignment.1: Bailee's Weblog</title>
+        </head>
+        <body>
+            <header>
+                <div class="mainTitle"><h1 class="blogName">BaiBlog</h1>
+                </div>
+                <div class = "navBar">
+                    <nav id ="links">
+                        <a href="index.html">Home</a>
+                        <a href="posts.html">Blog</a>
+                        <a href="create.html">Create New Post</a>
+                    </nav>
+                </div>
+            </header>
+        <main>
+            <div class="blogContainer">
+                <div class="blobBox">
+                    <div class="blogImg">
+                        <img src="Images/wbe.jpg" alt="Generic food photo" width="120%" height="120%">
+                    </div>
+                    <div class="blogText">
+                        <span>What Bailee Gerlich Eats In A Week
+                        <br>
+                        <a href="eats.html">Read More</a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="blogContainer">
+                <div class="blobBox">
+                    <div class="blogImg">
+                        <img src="Images/workout.jpg" alt="Generic workout Photo" width="30%" height="20%"> 
+                     </div>
+                     <div class="blogText"><span>Bailee's Weekly Workout Routine
+                        <br>
+                        <a href="workout.html">Read More</a>
+                     </span>
+                    </div>
+                </div>
+            </div>
+            <div class="blogContainer">
+                <div class="blobBox">
+                    <div class="blogImg">
+                    <img src="Images/favorite.jpg" alt="Aesthetic photo of a vanity"width="40%" height="40%">        
+                    </div>
+                    <div class="blogText"><span>A Few of Bailee's Favorite Things
+                        <br>
+                        <a href="favoriteThings.html">Read More</a>
+                    </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        <hr>
+        <footer id="contactInfo">
+            <p><small>Contact Information: Phone: (806)-683-5597 | Email: baileegerlich@gmail.com | Address: 19180 Blue Creek Drive</small></p>
+        </footer>
+    </body>
+</html>
